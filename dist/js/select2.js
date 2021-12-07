@@ -6,7 +6,7 @@
  * https://github.com/select2/select2/blob/master/LICENSE.md
  */
 ;(function (factory) {
-  if (typeof define === 'function' && define.amd) {
+  if (!!0 && typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
     define(['jquery'], factory);
   } else if (typeof module === 'object' && module.exports) {
